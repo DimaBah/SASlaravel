@@ -1,3 +1,8 @@
+git clone https://github.com/bahdiman/SASlaravel
+cd saslaravel
+composer install
+.env
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)

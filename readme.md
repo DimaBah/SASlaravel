@@ -3,6 +3,9 @@ cd saslaravel
 composer install
 .env
 
+
+Появилась новая ветка разработки Diman2
+
 2-е изменение
 
 ## Laravel PHP Framework

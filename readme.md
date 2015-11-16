@@ -3,6 +3,8 @@ cd saslaravel
 composer install
 .env
 
+Появилась новая ветка разработки Diman2
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)

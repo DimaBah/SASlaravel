@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/user/{id}/{name?}',function($id=null,$name='john'){
+	return $id .'-'.'user '.$name;
+})->where(['name'=>'[A-Za-z]+','id'=>'[0-9]+']);
+Route::get('user/profile/{id?}',array('uses'=>'UserController@getindex'));
+Route::controller('profile','UserController');
+Route::controllers(['profile'=>'UserController','test'=>'testController']);
+Route::get('{id?}',['uses'=>'BaseController@getIndex']);
+

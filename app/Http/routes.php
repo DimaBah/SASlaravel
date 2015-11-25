@@ -20,7 +20,9 @@ Route::controllers([
 'profile'=>'UserController',
 'test'=>'testController',
 'form'=>'formController',
-'base'=>'BaseController'
+'base'=>'BaseController',
+'auth'=>'Auth\AuthController',
+'home'=>'HomeController'
 ]);
 Route::get('{id?}',['uses'=>'BaseController@getIndex']);
 
